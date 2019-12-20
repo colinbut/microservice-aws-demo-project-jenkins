@@ -12,7 +12,7 @@ docker run \
   -p 7000:8080 \
   -v $HOME/dev/jenkins:/var/jenkins_home \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  -v "$HOME":/home
+  -v "$HOME":/home \
   jenkinsci/blueocean
 ```
 
